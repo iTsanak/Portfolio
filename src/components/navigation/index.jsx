@@ -9,7 +9,7 @@ const angleIncrement = 360 / BtnList.length;
 const Navigation = () => {
     return (
     <div className='w-full fixed h-screen flex items-center justify-center'>
-        <div className='flex items-center justify-between relative animate-spin-slow'>
+        <div className='flex items-center justify-between relative hover:pause animate-spin-slow'>
         {
             BtnList.map((btn, index) => {
                 // Convert the angle to radians for different button button by multiplying with the index
@@ -22,6 +22,7 @@ const Navigation = () => {
             })
         }
         </div>
+        
     </div>
     )
 }

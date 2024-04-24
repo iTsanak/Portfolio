@@ -32,7 +32,10 @@ module.exports = {
         'spin-slow': 'spin 40s linear infinite',
         'spin-slow-reverse': 'spin-reverse 40s linear infinite',
 
-      }
+      },
+      hover: {
+        'glass-sm': 'shadow-glass-sm',
+      },
     },
   },
   plugins: [],
