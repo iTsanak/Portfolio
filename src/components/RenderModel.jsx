@@ -8,11 +8,11 @@ const RenderModel = ({children, className}) => {
 
 
   return (
-    <Canvas className={clsx("w-screen h-screen -z-10 relative", className)}>
+    <Canvas className={clsx("w-screen h-screen z-10 relative", className)}>
         <Suspense fallback={null}>
             {children}
         </Suspense>
-        <Environment preset='dawn'/>
+        <Environment preset='lobby'/>
     </Canvas>
   )
 }

@@ -1,27 +1,28 @@
 "use client"
 import { BtnList } from '@/app/data'
 import React from 'react'
+import NavButton from './NavButton';
 
 // Divide the circle in (8) equal parts 
 const angleIncrement = 360 / BtnList.length;
 
 const Navigation = () => {
     return (
-    <div className='flex items-center justify-between relative'>
+    <div className='w-full fixed h-screen flex items-center justify-center'>
+        <div className='flex items-center justify-between relative'>
         {
             BtnList.map((btn, index) => {
-                // Convert the angle to radians
+                // Convert the angle to radians for different button button by multiplying with the index
                 const angleRad = (angleIncrement * index * Math.PI) / 180;
                 const radius = 'calc(20vw - 1rem)';
                 const x = `calc(${radius} * ${Math.cos(angleRad)})`;
                 const y = `calc(${radius} * ${Math.sin(angleRad)})`;
 
-                console.log(angleRad, radius, x, y);
-                return <button key={index} className='absolute' style={{transform: `translate(${x}, ${y})`}}>
-                    {btn.label}</button>
+                return <NavButton key={btn.label} x={x} y={y} {...btn} />
             })
         }
         </div>
+    </div>
     )
 }
 
