@@ -2,6 +2,7 @@ import Image from "next/image";
 import bg from "../../../../public/background/about-background.png";
 import RenderModel from "@/components/RenderModel";
 import HatModel from "@/components/models/HatModel";
+import AboutDetails from "@/components/about";
 
 
 export default function Home() {
@@ -16,11 +17,13 @@ export default function Home() {
         </div>
         
         <div className="relative w-full h-screen flex flex-col items-center justify-center">
-          <div className="absolute flex flex-col items-center text-center top-[30%] left-1/2 -translate-x-1/2">
+          <div className="absolute flex flex-col items-center text-center top-[50%] left-1/2 -translate-y-1/2 -translate-x-1/2">
             <h1 className="font-bold text-9xl text-accent">Iraklis Tsanachtsidis</h1>
-            <p className="font-light text-foreground text-ls text-2xl">Meet the Wizard behind the magic</p>
+            <p className="font-light text-foreground text-lg">Meet the Wizard behind the magic</p>
           </div>
         </div>
+
+        <AboutDetails />
     </>
   );
 }
