@@ -9,7 +9,7 @@ const ItemLayout = ({children, className}) => {
 
 const AboutDetails = () => {
   return (
-    <section className='py-20 w-full'>
+    <section className='py-15 w-full'>
         <div className='grid grid-cols-12 gap-8 w-full'>
 
             <ItemLayout className={'col-span-8 row-span-2 flex-col items-start'}>
@@ -35,16 +35,20 @@ const AboutDetails = () => {
             </p>
             </ItemLayout>
 
-            <ItemLayout className={'col-span-4'}>
+            <ItemLayout className={'col-span-4 text-accent'}>
             <div className='font-semibold w-full text-left text-5xl '>
                 10+ <sub className='font-semibold text-base'>Projects</sub>
             </div>
             </ItemLayout>
 
-            <ItemLayout className={'col-span-4'}>
+            <ItemLayout className={'col-span-4 text-accent'}>
             <div className='font-semibold w-full text-left text-5xl '>
                 1+ <sub className='font-semibold text-base'>Years of experience</sub>
             </div>
+            </ItemLayout>
+
+            <ItemLayout className={'col-span-6 '}>
+                <img className='' src='https://github-readme-stats.vercel.app/api?username=iTsanak' alt='iTsanak' loading='lazy' />
             </ItemLayout>
         </div>    
     </section>
