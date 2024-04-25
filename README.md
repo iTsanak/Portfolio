@@ -51,6 +51,7 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 - ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu) by [elbertwithane is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
 - ["Stylized wizard hat"](https://skfb.ly/ozxOQ) by [Enkarra is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 - ["Wizard Staff"](https://skfb.ly/6QYZw) by [Toymancer Studio is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Major Mana Potion"](https://skfb.ly/6Z6BX) by [imwolfgang is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
 #### AI Images
 
