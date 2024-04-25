@@ -47,8 +47,8 @@ const AboutDetails = () => {
             </div>
             </ItemLayout>
 
-            <ItemLayout className={'col-span-6 '}>
-                <img className='' src='https://github-readme-stats.vercel.app/api?username=iTsanak' alt='iTsanak' loading='lazy' />
+            <ItemLayout className={'col-span-6 !p-0'}>
+                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=iTsanak&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF' alt='iTsanak' loading='lazy' />
             </ItemLayout>
         </div>    
     </section>
