@@ -9,6 +9,7 @@ import { useFrame } from '@react-three/fiber'
 export default function Staff(props) {
   const { nodes, materials } = useGLTF('/models/staff-transformed.glb')
 
+  //Animate the staff
   const modelRef = useRef()
   useFrame(() =>{
     modelRef.current.rotation.y += 0.01
