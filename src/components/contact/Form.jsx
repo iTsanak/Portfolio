@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 export default function Form() {
   const { register, handleSubmit, formState: { errors } } = useForm();
-
+/////////////////2hr 36min///////////////////////////////
   const sendEmail = (params) => {
     emailjs
       .send(
