@@ -20,7 +20,7 @@ const AboutDetails = () => {
             Greetings, fellow travelers of the digital realm! I am a skilled software wizard, adept in the arcane arts
              of Python, C++, C, JavaScript, TypeScript, HTML, Node.js, React, Express, NoSQL, SQL, and Git. My magical 
              wand dances effortlessly through the realms of Azure, OOP, MongoDB, unit testing, API integration, Jira, 
-             Unix/Linux, DaisyUI, Tailwind CSS, and shadowing, crafting spells of software excellence.
+             Unix/Linux, DaisyUI, Tailwind CSS and crafting spells of software excellence.
             <br/>
             <br/>
             I have woven intricate spells of frontend, backend, and full-stack development, 
@@ -43,13 +43,26 @@ const AboutDetails = () => {
 
             <ItemLayout className={'col-span-4 text-accent'}>
             <div className='font-semibold w-full text-left text-5xl '>
-                1+ <sub className='font-semibold text-base'>Years of experience</sub>
+                2+ <sub className='font-semibold text-base'>Years of experience</sub>
             </div>
             </ItemLayout>
 
-            <ItemLayout className={'col-span-6 !p-0'}>
-                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=iTsanak&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF' alt='iTsanak' loading='lazy' />
+            <ItemLayout className={'col-span-4 !p-0'}>
+                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/top-langs/?username=iTsanak&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&hide_rank=true' alt='iTsanak' loading='lazy' />
             </ItemLayout>
+
+            <ItemLayout className={'col-span-8 !p-0'}>
+                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=iTsanak&theme=transparent&hide_border=true&title_color= &text_color=FFFFFF&hide_rank=true' alt='iTsanak' loading='lazy' />
+            </ItemLayout>
+
+            <ItemLayout className={'col-span-full'}>
+                <img className='w-full h-auto' src='https://skillicons.dev/icons?i=python,cpp,c,mongodb,postgres,react,ts,nextjs,nodejs,azure,html,tailwind,css,js,express,linux,git,figma,github,wordpress' alt='iTsanak' loading='lazy' />
+            </ItemLayout>
+
+            <ItemLayout className={'col-span-6 !P-0'}>
+                <img src="https://github-readme-streak-stats.herokuapp.com?user=iTsanak&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt='iTsanak' loading='lazy' />
+            </ItemLayout>
+
         </div>    
     </section>
   )
