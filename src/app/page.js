@@ -13,7 +13,7 @@ export default function Home() {
         {/* nav and 3d model*/}
         <Navigation />
         
-        <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0 -z-50 ">
+        <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0 ">
           <RenderModel>
             <Wizard/>
           </RenderModel>

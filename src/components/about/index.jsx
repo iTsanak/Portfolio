@@ -1,6 +1,8 @@
 import clsx from 'clsx'
 import React from 'react'
 
+const myGitHubStatsKey = process.env.NEXT_PUBLIC_GITHUB_STATS_URL;
+
 const ItemLayout = ({children, className}) => {
     return <div className={clsx('custom-bg p-8 rounded-xl flex items-center justify-center space-y-8', className)}>
             {children}
@@ -52,16 +54,24 @@ const AboutDetails = () => {
             </ItemLayout>
 
             <ItemLayout className={'col-span-8 !p-0'}>
-                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=iTsanak&theme=transparent&hide_border=true&title_color= &text_color=FFFFFF&hide_rank=true' alt='iTsanak' loading='lazy' />
+                <img className='w-full h-auto' src={myGitHubStatsKey} alt='iTsanak' loading='lazy' />
             </ItemLayout>
 
             <ItemLayout className={'col-span-full'}>
                 <img className='w-full h-auto' src='https://skillicons.dev/icons?i=python,cpp,c,mongodb,postgres,react,ts,nextjs,nodejs,azure,html,tailwind,css,js,express,linux,git,figma,github,wordpress' alt='iTsanak' loading='lazy' />
             </ItemLayout>
 
-            <ItemLayout className={'col-span-6 !P-0'}>
+            <ItemLayout className={'col-span-6 !p-0'}>
                 <img src="https://github-readme-streak-stats.herokuapp.com?user=iTsanak&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt='iTsanak' loading='lazy' />
             </ItemLayout>
+
+            <ItemLayout className={'col-span-6 !p-0'}>
+                <a  className='w-full h-auto'href='https://github.com/iTsanak/Vortex-Social-Media-App' target='_blank' rel='noopener noreferrer'>
+                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/pin/?username=iTsanak&repo=Vortex-Social-Media-App&theme=transparent&hide_border=true&title_color=&text_color=FFFFFF' alt='iTsanak' loading='lazy' />
+                </a>
+            </ItemLayout>
+
+            
         </div>    
     </section>
   )
