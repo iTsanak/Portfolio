@@ -1,7 +1,9 @@
 import clsx from 'clsx'
 import React from 'react'
 
+// Env variables
 const myGitHubStatsKey = process.env.NEXT_PUBLIC_GITHUB_STATS_URL;
+const myGitHubStreakKey = process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL;
 
 const ItemLayout = ({children, className}) => {
     return <div className={clsx('custom-bg p-8 rounded-xl flex items-center justify-center space-y-8', className)}>
@@ -62,7 +64,7 @@ const AboutDetails = () => {
             </ItemLayout>
 
             <ItemLayout className={'col-span-6 !p-0'}>
-                <img src="https://github-readme-streak-stats.herokuapp.com?user=iTsanak&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt='iTsanak' loading='lazy' />
+                <img src={myGitHubStreakKey} alt='iTsanak' loading='lazy' />
             </ItemLayout>
 
             <ItemLayout className={'col-span-6 !p-0'}>
