@@ -62,7 +62,6 @@ const AboutDetails = () => {
             <ItemLayout className={'col-span-6 !P-0'}>
                 <img src="https://github-readme-streak-stats.herokuapp.com?user=iTsanak&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt='iTsanak' loading='lazy' />
             </ItemLayout>
-
         </div>    
     </section>
   )
