@@ -1,17 +1,13 @@
-import clsx from 'clsx'
 import React from 'react'
+import ItemLayout from './ItemLayout';
+
+
 
 // Env variables
 const myGitHubStatsKey = process.env.NEXT_PUBLIC_GITHUB_STATS_URL;
 const myGitHubStreakKey = process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL;
 
-const ItemLayout = ({children, className}) => {
-    return <div className={clsx(
-        'custom-bg p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8',
-         className)}>
-            {children}
-        </div>
-}
+
 
 const AboutDetails = () => {
   return (
