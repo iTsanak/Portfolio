@@ -1,12 +1,22 @@
 import Link from 'next/link';
 import React from 'react'
+import {motion} from 'framer-motion';
+
+const item = {
+  hidden: {opacity: 0, y:100},
+  show: {opacity: 1, y:0}
+};
+
+const NavLink = motion(Link);
 
 const ProjectLayout = ({name, description, date, demoLink}) => {
-  //D
+  //Date formatting for the projects
   const formattedDate = new Date(date).toLocaleDateString('en-US', { month: '2-digit', year: 'numeric' });
 
   return (
-    <Link href={demoLink}
+    <NavLink
+     variants={item}
+     href={demoLink}
      target={"_blank"}
       className='text-sm md:text-base flex flex-col items-start justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg'>
       <div className='flex items-center justify-between w-full'>
@@ -19,7 +29,7 @@ const ProjectLayout = ({name, description, date, demoLink}) => {
       <div className='w-full'>
         <p className='text-muted text-left'>{description}</p>
       </div>
-    </Link>
+    </NavLink>
   );
 }
 
