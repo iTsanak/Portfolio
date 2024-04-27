@@ -36,6 +36,9 @@ module.exports = {
         'spin-slow-reverse': 'spin-reverse 40s linear infinite',
 
       },
+      screens: {
+        xs: '480px',
+      },
       hover: {
         'glass-sm': 'shadow-glass-sm',
       },
