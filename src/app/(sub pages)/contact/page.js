@@ -1,8 +1,6 @@
 import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png";
 import RenderModel from "@/components/RenderModel";
-import HatModel from "@/components/models/HatModel";
-import AboutDetails from "@/components/about";
 import Form from "@/components/contact/Form";
 
 
