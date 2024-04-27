@@ -37,6 +37,7 @@ const Navigation = () => {
                         variants={container}
                         initial='hidden'
                         animate='show'
+
                         className='w-max flex items-center justify-center relative hover:pause 
                         animate-spin-slow group'>
                             {
@@ -61,6 +62,7 @@ const Navigation = () => {
                         variants={container}
                         initial='hidden'
                         animate='show' 
+
                         className='w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4
                          item-start xs:items-center justify-center relative group'>
                             {
@@ -74,6 +76,7 @@ const Navigation = () => {
                         variants={container}
                         initial='hidden'
                         animate='show'
+                        
                         className='w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-end
                          xs:items-center justify-center relative group'>
                             {
