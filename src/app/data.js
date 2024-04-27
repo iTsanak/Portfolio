@@ -26,46 +26,19 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Spotify Playlist to YouTube MP3 Converter",
+    name: "Spotify to YouTube MP3 Download",
     description: "Python, Flask, Pandas, Spotify API, youtube-dl",
     date: "2024-03",
     demoLink: "https://github.com/iTsanak/SpotifyToYouTube",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
+    name: "3D Portfolio Website",
+    description: "React, Next.js, Three.js, TailwindCSS, GLTF JSX",
+    date: "2024-04-10",
     demoLink: "https://budgetplanner.example.com",
   },
-  {
-    id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-  },
-  {
-    id: 2,
-    name: "Spotify Playlist to YouTube MP3 Converter",
-    description: "Python, Flask, Pandas, Spotify API, youtube-dl",
-    date: "2024-03",
-    demoLink: "https://github.com/iTsanak/SpotifyToYouTube",
-  },
-  {
-    id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
-  },
-  {
-    id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-  },
+  
 ];
 
 export const BtnList = [
