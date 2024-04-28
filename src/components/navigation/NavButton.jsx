@@ -1,5 +1,5 @@
 
-import { Home, Github, Linkedin, LocateFixed, NotebookText, Phone, Twitter, User } from 'lucide-react'
+import { Home, Github, Linkedin, LocateFixed, NotebookText, Phone, Twitter, User, Instagram } from 'lucide-react'
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveComponent from '../ResponsiveComponent';
@@ -20,8 +20,8 @@ const getIcon = (icon) => {
             return <Github className='w-full h-auto' strokeWidth={1.5} />;
         case 'linkedin':
             return <Linkedin className='w-full h-auto' strokeWidth={1.5} />;
-        case 'twitter':
-            return <Twitter className='w-full h-auto' strokeWidth={1.5} />;
+        case 'instagram':
+            return <Instagram className='w-full h-auto' strokeWidth={1.5} />;
         case 'resume':
             return <NotebookText className='w-full h-auto' strokeWidth={1.5} />;
         default:

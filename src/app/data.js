@@ -20,7 +20,7 @@ export const projectsData = [
   {
     id: 1,
     name: "Instagram Inspired Social Media App",
-    description: "Fullstack, react, typescript, reactquery",
+    description: "Fullstack, React, Typescript, React Query, Appwrite",
     date: "2024-04",
     demoLink: "https://github.com/iTsanak/Vortex-Social-Media-App",
   },
@@ -36,7 +36,7 @@ export const projectsData = [
     name: "3D Portfolio Website",
     description: "React, Next.js, Three.js, TailwindCSS, GLTF JSX",
     date: "2024-04-10",
-    demoLink: "https://budgetplanner.example.com",
+    demoLink: "https://github.com/iTsanak/Portfolio",
   },
   
 ];
@@ -59,9 +59,9 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "X",
-    link: "",
-    icon: "twitter",
+    label: "Instagram",
+    link: "https://www.instagram.com/_tsanak_/",
+    icon: "instagram",
     newTab: true,
   },
   {
