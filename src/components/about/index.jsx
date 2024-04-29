@@ -45,7 +45,7 @@ const AboutDetails = () => {
 
             <ItemLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
             <div className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                2+ <sub className='font-semibold text-base'>Years of experience</sub>
+                15+ <sub className='font-semibold text-base'>Languages and Frameworks</sub>
             </div>
             </ItemLayout>
 
@@ -53,20 +53,20 @@ const AboutDetails = () => {
                 <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/top-langs/?username=iTsanak&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&hide_rank=true' alt='iTsanak' loading='lazy' />
             </ItemLayout>
 
-            <ItemLayout className={'col-span-full md:col-span-8 !p-0'}>
+            <ItemLayout className={'col-span-full sm:col-span-6 md:col-span-8 !p-0'}>
+                <img src={myGitHubStreakKey} alt='iTsanak' loading='lazy' />
+            </ItemLayout>            
+
+            <ItemLayout className={'col-span-full'}>
+                <img className='w-full h-auto' src='https://skillicons.dev/icons?i=python,cpp,c,mongodb,postgres,react,ts,nextjs,nodejs,threejs,azure,html,tailwind,css,js,express,linux,git,figma,latex,md,github,powershell,wordpress,vite' alt='iTsanak' loading='lazy' />
+            </ItemLayout>
+
+            <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
                 <img className='w-full h-auto' src={myGitHubStatsKey} alt='iTsanak' loading='lazy' />
             </ItemLayout>
 
-            <ItemLayout className={'col-span-full'}>
-                <img className='w-full h-auto' src='https://skillicons.dev/icons?i=python,cpp,c,mongodb,postgres,react,ts,nextjs,nodejs,azure,html,tailwind,css,js,express,linux,git,figma,github,wordpress,vite' alt='iTsanak' loading='lazy' />
-            </ItemLayout>
-
             <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
-                <img src={myGitHubStreakKey} alt='iTsanak' loading='lazy' />
-            </ItemLayout>
-
-            <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
-                <a  className='w-full h-auto'href='https://github.com/iTsanak/Vortex-Social-Media-App' target='_blank' rel='noopener noreferrer'>
+                <a  className='w-full h-auto' href='https://github.com/iTsanak/Vortex-Social-Media-App' target='_blank' rel='noopener noreferrer'>
                     <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/pin/?username=iTsanak&repo=Vortex-Social-Media-App&theme=transparent&hide_border=true&title_color=&text_color=FFFFFF' alt='iTsanak' loading='lazy' />
                 </a>
             </ItemLayout>
