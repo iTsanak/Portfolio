@@ -20,7 +20,7 @@ const AboutDetails = () => {
             </h2>
             <p className='font-light text-xs sm:text-sm md:text-base'>
             Greetings, fellow travelers of the digital realm! I am a skilled software wizard, adept in the arcane arts
-             of Python, C++, C, JavaScript, TypeScript, HTML, Node.js, React, Express, NoSQL, SQL, and Git. My magical 
+             of Python, C++, C, JavaScript, TypeScript, HTML, Node.js, React, Next, Express, NoSQL, SQL, and Git. My magical 
              wand dances effortlessly through the realms of Azure, OOP, MongoDB, unit testing, API integration, Jira, 
              Unix/Linux, DaisyUI, Tailwind CSS and crafting spells of software excellence.
             <br/>
@@ -45,7 +45,7 @@ const AboutDetails = () => {
 
             <ItemLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
             <div className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                15+ <sub className='font-semibold text-base'>Languages and Frameworks</sub>
+                15+ <sub className='font-semibold text-base'>Languages & Frameworks</sub>
             </div>
             </ItemLayout>
 
@@ -54,7 +54,7 @@ const AboutDetails = () => {
             </ItemLayout>
 
             <ItemLayout className={'col-span-full sm:col-span-6 md:col-span-8 !p-0'}>
-                <img src={myGitHubStreakKey} alt='iTsanak' loading='lazy' />
+                <img src='https://github-readme-streak-stats.herokuapp.com?user=iTsanak&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B' alt='iTsanak' loading='lazy' />
             </ItemLayout>            
 
             <ItemLayout className={'col-span-full'}>
@@ -62,7 +62,7 @@ const AboutDetails = () => {
             </ItemLayout>
 
             <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
-                <img className='w-full h-auto' src={myGitHubStatsKey} alt='iTsanak' loading='lazy' />
+                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=iTsanak&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&hide_rank=true' alt='iTsanak' loading='lazy' />
             </ItemLayout>
 
             <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>

@@ -19,21 +19,21 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Instagram Inspired Social Media App",
+    name: "Vortex Social Media App",
     description: "Fullstack, React, Typescript, React Query, Appwrite",
     date: "2024-04",
     demoLink: "https://github.com/iTsanak/Vortex-Social-Media-App",
   },
   {
     id: 2,
-    name: "Spotify to YouTube MP3 Download",
+    name: "Spotify to YouTube MP3",
     description: "Python, Flask, Pandas, Spotify API, youtube-dl",
     date: "2024-02",
     demoLink: "https://github.com/iTsanak/SpotifyToYouTube",
   },
   {
     id: 3,
-    name: "Production Line Simulation System",
+    name: "Production Line System",
     description: "C++, OOP, Data Structures, File Handling, Algorithms",
     date: "2023-12-10",
     demoLink: "https://github.com/iTsanak/Production-Line-Simulation-System",
