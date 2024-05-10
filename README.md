@@ -7,30 +7,25 @@
  <br />
 
 
-
----
-# ⭐DO NOT FORGET TO STAR THIS REPO⭐
----
-
 ## Images of The Portfolio Website:
 
 #### Home
-![Nextjs Creative Portfolio Website](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-desktop.png)
+![Portfolio Website](https://github.com/iTsanak/Portfolio/blob/main/public/Images/Home%20page.png)
 
 #### About
-![Nextjs Creative Portfolio Website About Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-desktop-full.png)
+![About Page](https://github.com/iTsanak/Portfolio/blob/main/public/Images/About.png)
 
 #### Projects
-![Next.js Creative Portfolio Website Projects Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-desktop.png)
+![Projects Page](https://github.com/iTsanak/Portfolio/blob/main/public/Images/Projects.png)
 
 #### Contact
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-desktop.png)
+![Contact Page](https://github.com/iTsanak/Portfolio/blob/main/public/Images/Contact.png)
 
 #### Mobile Version
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-mobile.png)
+![Home Page](https://github.com/iTsanak/Portfolio/blob/main/public/Images/Mobile%20Home%20page.png)
+![Projects Page](https://github.com/iTsanak/Portfolio/blob/main/public/Images/Mobile%20Projects.png)
+![Contact Page](https://github.com/iTsanak/Portfolio/blob/main/public/Images/Phone%20Contact.png)
+
 
 ## Resources Used in This Project
 
@@ -69,20 +64,3 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, install the dependencies and run the development server:
-
-```bash
-npm run install # to install all dependencies
-
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
